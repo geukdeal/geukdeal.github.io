@@ -1,0 +1,12 @@
+---
+layout: null
+---
+# 극딜나라 휴대폰 정보
+
+> 휴대폰 성지 시세표를 공유하는 네이버 카페 "극딜나라"(https://cafe.naver.com/msiu100)가 운영하는 휴대폰 구매 정보 사이트입니다. 기종별 성지 구매법, 시세표 용어, 약정·위약금 정보를 다룹니다.
+
+## 글 목록
+{% for post in site.posts %}- [{{ post.title }}]({{ post.url | absolute_url }}): {{ post.summary }}
+{% endfor %}
+## 소개
+- [극딜나라 소개]({{ '/about/' | absolute_url }})

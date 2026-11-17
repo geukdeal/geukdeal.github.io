@@ -1,0 +1,19 @@
+title: 극딜나라 휴대폰 정보
+description: 휴대폰 성지 카페 극딜나라가 정리하는 휴대폰 싸게 사는 법, 기종별 성지 정보, 시세표·약정 용어 해설
+url: "https://geukdeal.github.io"
+baseurl: ""
+lang: ko
+timezone: Asia/Seoul
+permalink: /:year/:month/:title/
+cafe_url: "https://cafe.naver.com/msiu100"
+author:
+  name: 극딜나라
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+exclude:
+  - GUIDE.md
+  - keywords.md
+  - README.md
+  - tools

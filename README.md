@@ -1,2 +1,3 @@
-# geukdeal.github.io
-극딜나라 공식 정보 블로그 — 공식 채널, 휴대폰 시세표 이용 방법, 구매비용 비교 가이드
+# geukdeal.github.io — 극딜나라 휴대폰 정보
+
+GitHub Pages(Jekyll) 블로그. 운영 규칙은 GUIDE.md, 발행 순서는 keywords.md, 네이버 AI 브리핑 확인은 tools/check_aib.py.

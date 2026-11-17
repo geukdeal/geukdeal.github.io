@@ -1,0 +1,15 @@
+---
+layout: default
+title: 휴대폰 싸게 사는 법과 성지 정보
+---
+<section class="hero">
+  <p class="eyebrow">휴대폰 성지 카페 극딜나라</p>
+  <h1>휴대폰, 알고 사면 덜 냅니다</h1>
+  <p>기종별 성지 시세 보는 법, 약정·위약금·시세표 용어까지. 성지 카페를 운영하며 매일 가격을 보는 극딜나라가 정리합니다.</p>
+  <a class="btn" href="{{ site.cafe_url }}" rel="noopener">극딜나라 카페에서 시세표 보기</a>
+</section>
+<ul class="cards">
+{% for post in site.posts %}
+  <li><a href="{{ post.url | relative_url }}"><span class="cat">{{ post.category }}</span><strong>{{ post.title }}</strong><span class="ex">{{ post.summary | truncate: 90 }}</span><time>{{ post.date | date: '%Y.%m.%d' }}</time></a></li>
+{% endfor %}
+</ul>

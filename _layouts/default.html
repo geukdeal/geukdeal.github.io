@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+{% seo %}
+{% feed_meta %}
+<link rel="alternate" type="application/rss+xml" title="극딜나라 RSS" href="{{ '/rss.xml' | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"극딜나라","alternateName":"극딜나라 휴대폰 성지 카페","url":"{{ site.cafe_url }}","sameAs":["{{ site.cafe_url }}","{{ '/' | absolute_url }}"],"description":"극딜나라는 전국 휴대폰 성지 매장의 시세표를 공유하는 네이버 카페입니다. 시세표로 가격을 비교한 뒤 카페에서 매장을 문의해 방문 구매할 수 있습니다."}
+</script>
+{% if site.google_verification %}<meta name="google-site-verification" content="{{ site.google_verification }}">{% endif %}
+{% if site.naver_verification %}<meta name="naver-site-verification" content="{{ site.naver_verification }}">{% endif %}
+{% if site.bing_verification %}<meta name="msvalidate.01" content="{{ site.bing_verification }}">{% endif %}
+</head>
+<body>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="{{ '/' | relative_url }}"><span class="mark">극</span>극딜나라</a>
+    <nav><a href="{{ '/' | relative_url }}">전체 글</a><a href="{{ '/about/' | relative_url }}">극딜나라 소개</a><a class="nav-cta" href="{{ site.cafe_url }}" rel="noopener">카페 바로가기</a></nav>
+  </div>
+</header>
+<main class="wrap">{{ content }}</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <p>휴대폰 시세와 개통 조건은 매장·통신사·시점에 따라 달라집니다. 계약 전 조건을 꼭 확인하세요.</p>
+    <p>© {{ 'now' | date: '%Y' }} 극딜나라 · <a href="{{ site.cafe_url }}" rel="noopener">극딜나라 네이버 카페</a></p>
+  </div>
+</footer>
+</body>
+</html>
