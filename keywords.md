@@ -4,7 +4,7 @@
 
 - [x] 휴대폰 위약금 계산 (_posts/2026-11-17-phone-penalty-calc.md)
 - [x] 아이폰 17 프로 성지 (_posts/2026-11-18-iphone-17-pro-seongji.md)
-- [ ] 할부원금 뜻
+- [x] 할부원금 뜻 (_posts/2026-11-19-installment-principal-meaning.md)
 - [ ] 갤럭시 Z 플립8 싸게 사는법
 - [ ] 현완 뜻
 - [ ] 갤럭시 S26 울트라 성지
