@@ -6,8 +6,8 @@
 - [x] 아이폰 17 프로 성지 (_posts/2026-11-18-iphone-17-pro-seongji.md)
 - [x] 할부원금 뜻 (_posts/2026-11-19-installment-principal-meaning.md)
 - [x] 갤럭시 Z 플립8 싸게 사는법 (_posts/2026-11-20-galaxy-z-flip8-cheap.md)
-- [ ] 현완 뜻
-- [ ] 갤럭시 S26 울트라 성지
+- [ ] 현완 뜻 (브리핑 없음 11-21: 브리핑이 "현아" 인명·역사 용어로 교정돼 휴대폰 의미 아님)
+- [x] 갤럭시 S26 울트라 성지 (_posts/2026-11-21-galaxy-s26-ultra-seongji.md)
 - [ ] 부가서비스 해지
 - [ ] 아이폰 18 프로 싸게 사는법
 - [ ] 핸드폰 바꾸는 시기
