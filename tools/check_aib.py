@@ -12,7 +12,7 @@ def fetch(q):
         return r.read().decode('utf-8', 'ignore')
 
 def blocks(h):
-    for m in re.finditer(r'entry\.bootstrap\(document\.getElementById\("[^"]+"\),\s*', h):
+    for m in re.finditer(r'\b\w+\.bootstrap\(document\.getElementById\("[^"]+"\),\s*', h):
         try:
             yield json.JSONDecoder().raw_decode(h, m.end())[0]
         except Exception:
