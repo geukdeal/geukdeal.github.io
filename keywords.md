@@ -5,7 +5,7 @@
 - [x] 아이폰 18 프로 성지 (_posts/2026-11-24-iphone-18-pro-seongji.md)
 - [x] 아이폰 18 프로맥스 싸게 사는법 (_posts/2026-11-25-iphone-18-pro-max-cheap.md)
 - [x] 아이폰 듀오 싸게 사는법 (_posts/2026-11-26-iphone-duo-cheap.md)
-- [ ] 아이폰 듀오 성지 (11-23 추가)
+- [x] 아이폰 듀오 성지 (_posts/2026-11-27-iphone-duo-seongji.md)
 - [ ] 갤럭시 Z 폴드8 싸게 사는법 (11-23 추가)
 - [x] 휴대폰 위약금 계산 (_posts/2026-11-17-phone-penalty-calc.md)
 - [x] 아이폰 17 프로 성지 (_posts/2026-11-18-iphone-17-pro-seongji.md)
